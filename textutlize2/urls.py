@@ -20,5 +20,5 @@ from textutlize2 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
-    path('analiz',views.analiz)
+    path('template/analiz',views.analiz)
 ]
